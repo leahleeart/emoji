@@ -410,7 +410,7 @@ if(dist(mouseX, mouseY, hearteyes[0], hearteyes[1]) < 30){
 textSize (14);
 fill(150, 150, 150);
 noStroke ();
-text('sent 17 times', hearteyes[0], hearteyes[1]+40);
+text('sent 17 times', hearteyes[0]+80, hearteyes[1]);
 }
 
 //SHOW TEXT firework text
@@ -459,7 +459,7 @@ if(dist(mouseX, mouseY, stars[0], stars[1]) < 30){
 textSize (14);
 fill(150, 150, 150);
 noStroke ();
-text('sent 12 times', stars[0]+80, stars[1]);
+text('sent 12 times', stars[0], stars[1]+40);
 }
 
 //SHOW TEXT star text
